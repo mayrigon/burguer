@@ -1,81 +1,169 @@
 {
-    "ingredientes": {
-      "paes": [
-        {
-          "id": 1,
-          "tipo": "Italiano Branco"
-        },
-        {
-          "id": 2,
-          "tipo": "3 Queijos"
-        },
-        {
-          "id": 3,
-          "tipo": "Parmesão e Orégano"
-        },
-        {
-          "id": 4,
-          "tipo": "Integral"
-        }
-      ],
-      "carnes": [
-        {
-          "id": 1,
-          "tipo": "Maminha"
-        },
-        {
-          "id": 2,
-          "tipo": "Alcatra"
-        },
-        {
-          "id": 3,
-          "tipo": "Picanha"
-        },
-        {
-          "id": 4,
-          "tipo": "Veggie burger"
-        }
-      ],
-      "opcionais": [
-        {
-          "id": 1,
-          "tipo": "Bacon"
-        },
-        {
-          "id": 2,
-          "tipo": "Cheddar"
-        },
-        {
-          "id": 3,
-          "tipo": "Salame"
-        },
-        {
-          "id": 4,
-          "tipo": "Tomate"
-        },
-        {
-          "id": 4,
-          "tipo": "Cebola roxa"
-        },
-        {
-          "id": 4,
-          "tipo": "Pepino"
-        }
-      ]
-    },
-    "status": [
+  "ingredientes": {
+    "paes": [
       {
         "id": 1,
-        "tipo": "Solicitado"
+        "tipo": "Italiano Branco"
       },
       {
         "id": 2,
-        "tipo": "Em produção"
+        "tipo": "3 Queijos"
       },
       {
         "id": 3,
-        "tipo": "Finalizado"
+        "tipo": "Parmesão e Orégano"
+      },
+      {
+        "id": 4,
+        "tipo": "Integral"
       }
     ],
-    "burgers": []
-  }
+    "carnes": [
+      {
+        "id": 1,
+        "tipo": "Maminha"
+      },
+      {
+        "id": 2,
+        "tipo": "Alcatra"
+      },
+      {
+        "id": 3,
+        "tipo": "Picanha"
+      },
+      {
+        "id": 4,
+        "tipo": "Veggie burger"
+      }
+    ],
+    "opcionais": [
+      {
+        "id": 1,
+        "tipo": "Bacon"
+      },
+      {
+        "id": 2,
+        "tipo": "Cheddar"
+      },
+      {
+        "id": 3,
+        "tipo": "Salame"
+      },
+      {
+        "id": 4,
+        "tipo": "Tomate"
+      },
+      {
+        "id": 4,
+        "tipo": "Cebola roxa"
+      },
+      {
+        "id": 4,
+        "tipo": "Pepino"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": 1,
+      "tipo": "Solicitado"
+    },
+    {
+      "id": 2,
+      "tipo": "Em produção"
+    },
+    {
+      "id": 3,
+      "tipo": "Finalizado"
+    }
+  ],
+  "burgers": [
+    {
+      "nome": "Bandenaro",
+      "carne": "Maminha",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Bacon",
+        "Pepino",
+        "Tomate"
+      ],
+      "status": "Em produção",
+      "id": 1
+    },
+    {
+      "nome": "test2",
+      "carne": "Alcatra",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Cheddar",
+        "Tomate"
+      ],
+      "status": "Finalizado",
+      "id": 6
+    },
+    {
+      "nome": "Band",
+      "carne": "Alcatra",
+      "pao": "Parmesão e Orégano",
+      "opcionais": [],
+      "status": "Em produção",
+      "id": 7
+    },
+    {
+      "nome": "Teste",
+      "carne": "Alcatra",
+      "pao": "3 Queijos",
+      "opcionais": [
+        "Bacon",
+        "Pepino"
+      ],
+      "status": "Solicitado",
+      "id": 8
+    },
+    {
+      "nome": "Teste",
+      "carne": "Veggie burger",
+      "pao": "Integral",
+      "opcionais": [
+        "Bacon"
+      ],
+      "status": "Finalizado",
+      "id": 9
+    },
+    {
+      "nome": "Band",
+      "carne": "Picanha",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Bacon"
+      ],
+      "status": "Solicitado",
+      "id": 10
+    },
+    {
+      "nome": "Band",
+      "carne": "Veggie burger",
+      "pao": "Integral",
+      "opcionais": [
+        "Pepino",
+        "Tomate",
+        "Cebola roxa"
+      ],
+      "status": "Solicitado",
+      "id": 11
+    },
+    {
+      "nome": "Band",
+      "carne": "Alcatra",
+      "pao": "3 Queijos",
+      "opcionais": [
+        "Cheddar",
+        "Tomate",
+        "Salame",
+        "Cebola roxa"
+      ],
+      "status": "Em produção",
+      "id": 12
+    }
+  ]
+}
